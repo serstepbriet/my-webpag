@@ -1,0 +1,283 @@
+* {
+  border-radius: 4px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.content {
+  padding: 0 6%;
+  margin: 0 3%;
+}
+
+.bg {
+  background: -webkit-gradient(linear, left top, left bottom, from(#002f81), to(#ffff));
+  background: linear-gradient(to bottom, #002f81, #ffff);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  padding: 0 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav ul {
+  background: white;
+  opacity: 1;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  list-style: none;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  padding: 1% 40%;
+}
+
+.nav ul li {
+  padding: 1% 5%;
+  text-align: center;
+  position: relative;
+  opacity: 1;
+  display: inline-block;
+}
+
+.nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+.nav ul .sub {
+  position: absolute;
+  background: none;
+  opacity: 0;
+}
+
+.nav ul .sub .sub-menu {
+  margin: 5% 0;
+  position: relative;
+}
+
+.nav ul .sub .sub-menu a {
+  opacity: 2;
+  background: white;
+  position: relative;
+  margin: 1%;
+  padding: 3%;
+  display: block;
+}
+
+.nav ul .sub:hover {
+  opacity: 2;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logo img {
+  margin: 2%;
+  background-color: white;
+  padding: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logo h2 {
+  font-weight: 100;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.not-pa {
+  margin: 1% 0;
+  padding: 0.25%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.material {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: rgba(255, 255, 255, 0.623);
+}
+
+.material .ph {
+  padding: 5%;
+  width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.material .ph #port {
+  height: 600px;
+}
+
+.material .text {
+  padding: 2% 5%;
+  text-align: center;
+}
+
+.material .text h3 {
+  text-transform: uppercase;
+}
+
+.material .text h2 {
+  text-transform: uppercase;
+  border-left: 2px solid #001a47;
+  font-size: 20px;
+  text-align: center;
+}
+
+.material .text p {
+  text-align: justify;
+  display: block;
+}
+
+.material .text #port-text h5 {
+  font-size: 24px;
+}
+
+.material .text-d {
+  padding: 3% 0;
+}
+
+.material .text-d h2 {
+  text-transform: uppercase;
+  border-left: 2px solid #001a47;
+  font-size: 20px;
+  text-align: center;
+}
+
+.material .text-d ul {
+  padding: 2%;
+}
+
+.material .text-d ul .pos-s {
+  margin: 15%;
+  padding: 5%;
+}
+
+.material .text-d ul a {
+  padding: 5%;
+}
+
+.material .stati-wsr {
+  margin: 1% 0 10% 0;
+}
+
+.material .metmat h3 {
+  padding: 1%;
+  text-align: left;
+  color: #001a47;
+  border-bottom: 1px solid #001a47;
+}
+
+.material .metmat .btn {
+  right: 20%;
+  position: absolute;
+  text-align: right;
+  display: inline;
+  padding: 1% 3%;
+  border: 1px solid #001a47;
+}
+
+.material .metmat .btn:hover {
+  background-color: #001a47;
+}
+
+.material .metmat .btn:hover a {
+  color: white;
+  text-decoration: none;
+}
+
+.material .text-obr h3 {
+  padding: 1% 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.material .text-obr ul {
+  padding: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  text-align: left;
+  list-style: none;
+}
+
+.material .text-obr ul a {
+  position: absolute;
+  top: 50%;
+  left: 12%;
+}
+
+.material .text-obr ul a:hover {
+  text-shadow: 5px 10px 10px black;
+}
+
+.material .text-obr ul .pos-s {
+  display: inline;
+}
+
+.material .text-obr ul .strel {
+  position: absolute;
+  top: 50%;
+  width: 25px;
+  height: 25px;
+  border-top: 5px solid #001a47;
+  border-right: 5px solid #001a47;
+  margin-right: 25px;
+  -webkit-transform: rotate(-225deg);
+          transform: rotate(-225deg);
+}
+
+.material .text-obr ul .strel #strel1 {
+  top: 12%;
+  right: -50%;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-top: 5px solid #001a47;
+  border-right: 5px solid #001a47;
+  margin-right: 15px;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+footer .content {
+  height: 105px;
+  background-color: white;
+}
+
+footer .text {
+  line-height: 3px;
+  padding: 3%;
+  text-align: right;
+  font-size: 12px;
+}
+/*# sourceMappingURL=style.css.map */
